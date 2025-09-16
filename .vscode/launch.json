@@ -1,16 +1,17 @@
 {
-	"version": "0.2.0",
-
-	"configurations": [
-		{
-			"name": "Serve extension",
-
-			"type": "extensionHost",
-			"request": "launch",
-			"args": ["--extensionDevelopmentPath=${workspaceFolder}"],
-			"preLaunchTask": "ESBuild: Compile (Watch Mode)",
-
-			"outFiles": ["${workspaceFolder}/dist/**/*.js"]
-		}
-	]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Extension",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/dist/**/*.js"
+      ],
+      "preLaunchTask": "npm: build:watch" // Assuming 'bun run build:watch' is equivalent to 'npm run build:watch'
+    }
+  ]
 }
