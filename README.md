@@ -38,11 +38,11 @@ While VSCode Rimraf is enabled, deleting files from the VSCode GUI will delete t
 
 ## Commands
 
--   `vscode-rimraf.toggle` **VSCode Rimraf: Toggle extension** Toggles (enables or disables) the extension. It is reset when opening
-    a new window.
--   `vscode-rimraf.empty-trash` **VSCode Rimraf: Empty the trash** Empties the trash.
--   `vscode-rimraf.save-logs` **VSCode Rimraf: Save debug log file** After execution, the extension will automatically save the logs
-    generated in the output channel.
+- `vscode-rimraf.toggle` **VSCode Rimraf: Toggle extension** Toggles (enables or disables) the extension. It is reset when opening a
+  new window.
+- `vscode-rimraf.empty-trash` **VSCode Rimraf: Empty the trash** Empties the trash.
+- `vscode-rimraf.save-logs` **VSCode Rimraf: Save debug log file** After execution, the extension will automatically save the logs
+  generated in the output channel.
 
 ## Support
 
@@ -51,17 +51,17 @@ Need help using VSCode Rimraf? Don't hesitate to reach out on
 
 ## Links
 
--   [GitHub](https://github.com/luisferlcc/vscode-rimraf)
--   [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=luisferlcc.vscode-rimraf)
--   [Open VSX](https://open-vsx.org/extension/luisferlcc/vscode-rimraf)
+- [GitHub](https://github.com/luisferlcc/vscode-rimraf)
+- [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=luisferlcc.vscode-rimraf)
+- [Open VSX](https://open-vsx.org/extension/luisferlcc/vscode-rimraf)
 
 ## Contributing
 
 Before creating an issue, please consider the following:
 
--   Make sure the issue hasn't already been reported or suggested.
--   After following these steps, you can file an issue using one of our
-    [templates](https://github.com/luisferlcc/vscode-rimraf/issues/new/choose). Please make sure to follow our
-    [Code of Conduct](https://github.com/luisferlcc/vscode-rimraf/blob/master/.github/CODE_OF_CONDUCT.md).
--   If you wish to [submit a pull request](https://github.com/luisferlcc/vscode-rimraf/compare) alongside your issue, please follow
-    our [contribution guidelines](https://github.com/luisferlcc/vscode-rimraf/blob/master/.github/CONTRIBUTING.md).
+- Make sure the issue hasn't already been reported or suggested.
+- After following these steps, you can file an issue using one of our
+  [templates](https://github.com/luisferlcc/vscode-rimraf/issues/new/choose). Please make sure to follow our
+  [Code of Conduct](https://github.com/luisferlcc/vscode-rimraf/blob/master/.github/CODE_OF_CONDUCT.md).
+- If you wish to [submit a pull request](https://github.com/luisferlcc/vscode-rimraf/compare) alongside your issue, please follow our
+  [contribution guidelines](https://github.com/luisferlcc/vscode-rimraf/blob/master/.github/CONTRIBUTING.md).

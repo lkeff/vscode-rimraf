@@ -55,7 +55,7 @@ namespace Logger {
 	}
 
 	export function error(...errors: (string | Error)[]): void {
-		_log(...errors.map(error => ["error", error instanceof Error ? error.stack ?? error.message : error] as LogMessage));
+		_log(...errors.map(error => ["error", error instanceof Error ? (error.stack ?? error.message) : error] as LogMessage));
 		errors.forEach(error => console.error(error));
 	}
 
